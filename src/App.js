@@ -23,15 +23,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [load, upadateLoad] = useState(false);
-/*
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      upadateLoad(false);
-    }, 1200);
 
-    return () => clearTimeout(timer);
-  }, []);
-*/
   return (
     <Router>
       <Preloader load={load} />
