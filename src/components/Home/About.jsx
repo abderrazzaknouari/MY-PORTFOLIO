@@ -32,12 +32,12 @@ Beyond the world of computer science, my interests extend to startups, politics,
                 <br />
                   As a
                   <b className="yellow"> Full-Stack </b>developer,  
-                  I enjoy tacklinallengesg new ch and continuously expanding my skillset.
+                  I enjoy tacklinallengesg new challenges and continuously expanding my skillset.
                   <br />
                   <br />I am proficient in
-                    <b className="yellow"> Javascript, </b>
+                    <b className="yellow"> Java </b>
                     as well as have knowledge in programming languages such as
-                  <b className="yellow">   C, C++, Java, Python.</b>
+                  <b className="yellow">   C, C++, JavaScript, Python, PHP.</b>
                   <br />
                   <br />
                   I have a passion for working
@@ -89,17 +89,7 @@ Beyond the world of computer science, my interests extend to startups, politics,
                   
                     </a>
                   </li>
-                  {/* <li className="social-icons">
-                    <a
-                      href=""
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="twitter"
-                    >
-                      <AiOutlineTwitter />
-                    </a>
-                  </li> */}
+                  
                   <li className="social-icons">
                     <a
                       href="https://www.linkedin.com/in/abderrazzak-nouari-9b9533248/"
@@ -111,17 +101,7 @@ Beyond the world of computer science, my interests extend to startups, politics,
                       <FaLinkedinIn />
                     </a>
                   </li>
-                  {/* <li className="social-icons">
-                    <a
-                      href="https://leetcode.com/19sajib/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour home-social-icons"
-                      aria-label="instagram"
-                    >
-                      <SiLeetcode />
-                    </a>
-                  </li> */}
+                 
                 </ul>
               </Col>
             </Row>

@@ -1,16 +1,16 @@
 html {
     --section-background-color: linear-gradient(
       to bottom left,
-      rgb(5, 8, 40), rgb(1, 4, 39)
+      rgb(0, 0, 0), rgb(0, 0, 0)
     );
   
     --image-gradient: linear-gradient(
       to bottom left,
-      rgba(5, 8, 40, 0.87), rgba(1, 4, 39, 0.925)
+      rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.925)
     );
   
-    --imp-text-color: #7500fa;
-    --imp-bold-text-color: #7500fa;
+    --imp-text-color: #d3d1d6;
+    --imp-bold-text-color: #4f8ba7;
   }
   
   .yellow {
@@ -35,7 +35,7 @@ html {
     width: 100%;
     height: 100%;
     z-index: 999999;
-    background-color: #0c0513;
+    background-color: #000000;
     background-image: url(./assets/pre.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -60,18 +60,18 @@ html {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #2d005c;
+    background: #000000;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(77, 1, 165, 0.959);
+    background: rgba(0, 0, 0, 0.959);
     border-radius: 12px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(121, 7, 250);
+    background: 4f8ba7;
     border-radius: 12px;
   }
   
@@ -79,9 +79,9 @@ html {
   /* Navbar Section  */
   /* --------- */
   .sticky {
-    background-color: #38007731 !important;
+    background-color: #1c1c1d31 !important;
     transition: all 0.3s ease-out 0s !important;
-    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+    box-shadow: #4f8ba7 !important;
     backdrop-filter: blur(15px) !important;
   }
   
@@ -100,7 +100,7 @@ html {
   
   .navbar-toggler span {
     display: block !important;
-    background-color: #7500fa !important;
+    background-color: #4f8ba7 !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -147,7 +147,7 @@ html {
     .navbar {
       padding: 1rem 2rem !important;
       font-size: 1.4rem !important;
-      background-color: #181a27 !important;
+      background-color: #4f8ba7 !important;
     }
     .navbar-nav .nav-item a::after {
       display: none !important;
@@ -197,7 +197,7 @@ html {
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #6e00fd;
+    background: #4f8ba7;
     bottom: 1px;
     left: 0;
     z-index: -1;
@@ -284,18 +284,18 @@ html {
   }
   
   .main-name {
-    color: #7500fa;
+    color: #4f8ba7;
   }
   
   .Typewriter__wrapper {
     font-size: 2.2em !important;
-    color: #7500fa!important;
+    color: #4f8ba7!important;
     /* color: #be6adf !important; */
     font-weight: 600 !important;
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
-    color: #7500fa !important;
+    color: #4f8ba7!important;
   }
   
   @media (max-width: 767px) {
@@ -384,7 +384,7 @@ html {
   
   .home-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #fdf902;
+    box-shadow:  0 0 15px #fdf902;
   }
   
   .home-social-icons:hover {
@@ -476,7 +476,7 @@ html {
     text-align: center !important;
     border-radius: 5px !important;
     display: table !important;
-    box-shadow: 4px 5px 4px 3px rgba(117, 0, 250, 0.37) !important;
+    box-shadow: #4f8ba7 !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
   }
@@ -535,8 +535,8 @@ html {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgb(72, 0, 155) !important;
-  /* box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important; */
+  box-shadow: #4f8ba7  !important;
+  /* box-shadow: #4f8ba7 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important; */
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -546,10 +546,10 @@ html {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  /* box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important; */
-  box-shadow: 0 4px 5px 3px rgba(117, 0, 250, 1) !important;
+  /* box-shadow: #4f8ba7 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important; */
+  box-shadow: #f8f8f8 !important;
 }
-
+ 
 .blog-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -560,7 +560,7 @@ html {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
+  box-shadow: #4f8ba7 !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -578,7 +578,7 @@ html {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+  box-shadow: #4f8ba7 !important;
 }
 
 .card-img-top {

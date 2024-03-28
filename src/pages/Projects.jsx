@@ -6,7 +6,7 @@ import pg from "../assets/projects/pg.png";
 import project from "../assets/projects/project.jpeg";
 import lift from "../assets/projects/lift.png";
 import MINI from "../assets/projects/Ministere-Project.png";
-import kickstart from "../assets/projects/kickstart.png";
+import IN_AS_APP from "../assets/projects/Intelligent-assistant.png";
 
 const Projects = () => {
   return (
@@ -24,10 +24,21 @@ const Projects = () => {
             <ProjectCard
               imgPath={MINI}
               isBlog={false}
-              title="Project Krypto"
-              description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
-              ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
-              demoLink="https://project-krypto.netlify.app/"
+              title="Website for the Ministry of Industry and Commerce "
+              description="I participated in a team at AXELINK Maroc during one of my internships, where we developed a website for the ministry using React & .NET "
+              ghLink=""
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={IN_AS_APP}
+              isBlog={false}
+              title="Intelligent assistant app "
+              description="I developed, as part of an innovation project, a virtual assistant using Spring AI capable of tasks such as scheduling tasks in Google Calendar, managing task lists in Google Tasks, sending emails via Gmail, or providing information based on user queries"
+              ghLink=""
+              demoLink=""
             />
           </Col>
          

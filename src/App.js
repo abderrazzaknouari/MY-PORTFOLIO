@@ -22,8 +22,8 @@ import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const [load, upadateLoad] = useState(true);
-
+  const [load, upadateLoad] = useState(false);
+/*
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
@@ -31,7 +31,7 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
-
+*/
   return (
     <Router>
       <Preloader load={load} />
