@@ -5,14 +5,14 @@ import { Row } from "react-bootstrap";
 const Leetcode = () => {
   return (
     <div>
-    <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+ {/*   <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
         <strong className="yellow">LeetCode</strong> Stat
       </h1>
       <ReactMarkdown>
       ![LeetCode Stats](https://camo.githubusercontent.com/b1ced0909d1deb05a6f0b6b5790270b371627b8cc4907fb0c58c01c94317b32e/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d616264657272617a7a616b6e6f75617269267468656d653d746f6b796f6e696768742673686f775f69636f6e733d7472756526686964655f626f726465723d7472756526636f756e745f707269766174653d74727565)
       </ReactMarkdown>
-    </Row>
+    </Row> */}
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       
       <ReactMarkdown>
